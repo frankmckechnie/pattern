@@ -1,0 +1,24 @@
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.li-icon {
+    margin-right: 15px;
+}
+
+.fa { display:inline; }
+
+.fa-chevron-right {
+  margin-top: 5px;
+}
+
+.icon {
+  padding: 0px 10px 0px 0px;
+}

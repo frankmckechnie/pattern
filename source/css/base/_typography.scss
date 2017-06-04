@@ -1,0 +1,232 @@
+/**
+ * Basic typography style for copy text
+ */
+// Headings sizes for all screens
+#pinsent h1,
+#pinsent h2,
+#pinsent h3,
+#pinsent h4,
+#pinsent h5,
+#pinsent h6 {
+    font-weight: 400;
+    line-height: 1.1;
+}
+
+#pinsent h1 a,
+#pinsent h2 a,
+#pinsent h3 a,
+#pinsent h4 a,
+#pinsent h5 a,
+#pinsent h6 a {
+    font-weight: inherit;
+}
+
+#pinsent h1 {
+    font-size: 4.2rem;
+    line-height: 110%;
+    margin: 2.1rem 0 1.68rem 0;
+}
+
+#pinsent h2 {
+    font-size: 3.56rem;
+    line-height: 110%;
+    margin: 1.78rem 0 1.424rem 0;
+}
+
+#pinsent h3 {
+    font-size: 2.92rem;
+    line-height: 110%;
+    margin: 1.46rem 0 1.168rem 0;
+}
+
+#pinsent h4 {
+    font-size: 2.28rem;
+    line-height: 110%;
+    margin: 1.14rem 0 0.912rem 0;
+}
+
+#pinsent h5 {
+    font-size: 1.64rem;
+    line-height: 110%;
+    margin: 0.82rem 0 0.656rem 0;
+}
+
+#pinsent h6 {
+    font-size: 1rem;
+    line-height: 110%;
+    margin: 0.5rem 0 0.4rem 0;
+}
+
+#pinsent em {
+    font-style: italic;
+}
+
+#pinsent strong {
+    font-weight: 500;
+}
+
+#pinsent small {
+    font-size: 75%;
+}
+
+#pinsent .light {
+    font-weight: 300;
+}
+
+#pinsent .thin {
+    font-weight: 200;
+}
+
+#pinsent .flow-text {
+    font-weight: 300;
+}
+
+@media only screen and (min-width: 0) {
+    #pinsent {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #pinsent {
+        font-size: 14.5px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #pinsent {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    #pinsent .flow-text {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    #pinsent .flow-text {
+        font-size: 1.224rem;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    #pinsent .flow-text {
+        font-size: 1.248rem;
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    #pinsent .flow-text {
+        font-size: 1.272rem;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    #pinsent .flow-text {
+        font-size: 1.296rem;
+    }
+}
+
+@media only screen and (min-width: 510px) {
+    #pinsent .flow-text {
+        font-size: 1.32rem;
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    #pinsent .flow-text {
+        font-size: 1.344rem;
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    #pinsent .flow-text {
+        font-size: 1.368rem;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #pinsent.flow-text {
+        font-size: 1.392rem;
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    #pinsent .flow-text {
+        font-size: 1.416rem;
+    }
+}
+
+@media only screen and (min-width: 660px) {
+    #pinsent .flow-text {
+        font-size: 1.44rem;
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    #pinsent .flow-text {
+        font-size: 1.464rem;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    #pinsent .flow-text {
+        font-size: 1.488rem;
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    #pinsent .flow-text {
+        font-size: 1.512rem;
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    #pinsent .flow-text {
+        font-size: 1.536rem;
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    #pinsent .flow-text {
+        font-size: 1.56rem;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    #pinsent .flow-text {
+        font-size: 1.584rem;
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    #pinsent .flow-text {
+        font-size: 1.608rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    #pinsent .flow-text {
+        font-size: 1.632rem;
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    #pinsent .flow-text {
+        font-size: 1.656rem;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    #pinsent .flow-text {
+        font-size: 1.68rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    #pinsent .flow-text {
+        font-size: 1.2rem;
+    }
+}

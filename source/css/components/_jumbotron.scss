@@ -1,0 +1,34 @@
+
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 0px;
+  color: inherit;
+  background-color: #eee;
+  border-radius: 0px;
+}
+
+.jumbotron {
+  position: relative
+}
+
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+  z-index: 23;
+}
+
+.jumbotron-billboard .img {
+  margin-bottom: 0px;
+  opacity: 0.2;
+  color: #fff;
+  background: #000 url("https://bootstrapcreative.com/wp-bc/wp-content/uploads/2017/03/learning-story.png") center center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}

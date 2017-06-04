@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+  .btn { 
+    position: relative;  overflow:hidden; text-transform: uppercase; border-radius: 0px; border: none; margin: 5px;
+    &:hover, &:focus {
+        box-shadow: 0 1px 6px 0 rgba(0,0,0,.12),0 1px 6px 0 rgba(0,0,0,.12); outline: none;
+    }
+  }
+
+  .btn-default { background-color: $default-color; &:hover, &:focus { background-color: darken($default-color, 5%) } }
+  .btn-primary { background-color: $primary-color; &:hover, &:focus { background-color: lighten($primary-color, 5%)} }
+  .btn-success { background-color: $success-color; &:hover, &:focus { background-color: lighten($success-color, 5%)} }
+  .btn-info { background-color: $info-color; &:hover, &:focus { background-color: lighten($info-color, 5%)} }
+  .btn-warning { background-color: $warning-color; &:hover, &:focus { background-color: lighten($warning-color, 5%)} }
+  .btn-danger { background-color: $danger-color; &:hover, &:focus { background-color: lighten($danger-color, 5%)} }
+  .fab{
+    border-radius: 50%;
+    margin: 0px;
+    padding: 20px;
+  }
+
+  .btn-effect{
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: white;
+    animation: btn-animation 2s;
+    -webkit-animation: btn-animation 2s;
+  }
+
+  @keyframes btn-animation {
+      from {
+        transform: scale(1);
+        opacity: 0.4;
+      }
+      to {
+        transform: scale(100);
+        opacity: 0;
+      }
+  }
+  @-webkit-keyframes btn-animation {
+      from {
+        transform: scale(1);
+        opacity: 0.4;
+      }
+      to {
+        transform: scale(100);
+        opacity: 0;
+      }
+  }

@@ -1,0 +1,50 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendor/bootstrap.css';
+
+// 3. Base stuff
+@import
+  'base/base',
+  'base/colors',
+  'base/fonts',
+  'base/icons',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/header',
+  'layout/navbar',
+  'layout/sidebar',
+  'layout/section',
+  'layout/footer',
+  'layout/article';
+
+// 5. Components
+@import
+  'components/jumbotron',
+  'components/panel',
+  'components/tabs',
+  'components/widget',
+  'components/cards',
+  'components/list-links',
+  'components/hr',
+  'components/rss',
+  'components/button';
+
+// 6. Page-specific styles
+@import
+  'pages/search',
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/default';

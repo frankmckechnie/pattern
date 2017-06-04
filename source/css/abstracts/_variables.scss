@@ -1,0 +1,82 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+
+/// Regular font family
+/// @type List
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+
+/// Code (monospace) font family
+/// @type List
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+
+/// Container's maximum width
+/// @type Length
+$max-width: 1180px !default;
+
+
+/// Breakpoints map
+/// @prop {String} keys - Keys are identifiers mapped to a given length
+/// @prop {Map} values - Values are actual breakpoints expressed in pixels
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+/// Relative or absolute URL where all assets are served from
+/// @type String
+/// @example scss - When using a CDN
+///   $base-url: 'http://cdn.example.com/assets/';
+$base-url: '/assets/' !default;
+
+$global-font: "Roboto", sans-serif;
+// global nav varibile
+$bodyText: #000;
+$bg-color: #00B5AD;
+$bg-text: #fff;
+$hight-light: #F37021;
+$grey: #eee;
+  
+//alert colors
+$default-color: #fff;
+$primary-color: #009688;
+$success-color: #4caf50;
+$info-color: #03a9f4;
+$warning-color: #ff5722;
+$danger-color: #f44336;
+
+// Flat ui colors
+// grenns
+$TURQUOISE: #1abc9c;
+$EMERALD: #2ecc71;
+// red
+$ALIZARIN: #e74c3c;
+// orange 
+$orange: #f39c12;
+// blue
+$peterRiver: #3498db;
+// yellow
+$sun: #f1c40f;
+$punkin: #d35400;
+
+// brand colors
+$brand-red: #c70c47;
+$brand-black:#1e2326;
+$brand-blue:#0097D6;
+$brand-turtle:#00B5AD;
+$brand-green:#8FB73E;
+$brand-lime:#CAC225;
+$brand-yello:#F1B80E;
+$brand-orange:#F37021;
+$brand-dark-orange:#EF4123;
+$brand-pink:#EE4D9B;
+$brand-light-purple:#C6168D;
+$brand-purple:#7C51A1;
+
+
+
+
+

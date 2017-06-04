@@ -1,0 +1,70 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.pm-header {
+  padding: 30px 0px 30px 0px;
+}
+.pm-header h3 {
+  color: #fff;
+  font-weight: 600;
+  background-color: #c70c47;
+   padding: 10px !important;
+  margin: 0px !important;;
+  border-left: 4px solid #fff;
+}
+.pm-header input{
+    width: 200px;
+    border-radius: 0;
+    background-color: #c70c47;
+    border: 0px solid #fff;
+    border-bottom: 1px solid #fff;
+    border-top: 0px;
+    box-shadow: none;
+    color: #fff;
+    margin: 3px 3px 3px 3px;
+    padding: 2px 5px 2px 5px;
+  transition:1s ease all; 
+  -moz-transition:0.5s ease all; 
+  -webkit-transition:0.5s ease all;
+}
+.pm-header input::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.pm-header input:focus{
+    width: 650px;
+    border-radius: 0;
+    background-color: #c70c47;
+    border: 0px solid #fff;
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    box-shadow: none;
+    color: #fff;
+    margin: 2px 3px 2px 3px;
+    padding: 3px 5px 3px 5px;
+   transition:1s ease all; 
+  -moz-transition:0.5s ease all; 
+  -webkit-transition:0.5s ease all;
+}
+
+.pm-logo {
+  display: inline-block;
+  color: #c70c47;
+  background-color: #fff;
+  padding: 15px;
+  margin-right: 10px !important;
+}
+
+.pm-content {
+  padding: 30px 0px;
+}
+
+.pm-banner {
+  padding: 10px 10px;
+  cursor: pointer;
+}
+.pm-banner strong {
+  color: #fff;
+}
+

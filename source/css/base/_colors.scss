@@ -1,0 +1,147 @@
+// back ground colors
+.bg-grey {
+    background-color: #eee;
+}
+
+.bg-lightGrey {
+    background-color: #fafafa;
+}
+
+// border colors
+.border-top-red {
+    border-top: 2px solid $brand-red;
+}
+
+.border-bottom-red {
+    border-bottom: 2px solid $brand-red;
+}
+
+.border-top-blue {
+    border-top: 1px solid $brand-blue;
+}
+
+.border-bottom-blue {
+    border-bottom: 1px solid $brand-blue;
+}
+
+.border-top-green {
+    border-top: 1px solid $brand-turtle;
+}
+
+.border-bottom-green {
+    border-bottom: 1px solid $brand-turtle;
+}
+
+// text colors
+.black-text {
+    color: $bodyText;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.text-primary {
+    color: #00B5AD;
+}
+
+.bg-TURQUOISE {
+    background-color: $TURQUOISE;
+    color: #fff;
+}
+
+.bg-EMERALD {
+    background-color: $EMERALD;
+    color: #fff;
+}
+
+.bg-ALIZARIN {
+    background-color: $ALIZARIN;
+    color: #fff;
+}
+
+.bg-orange {
+    background-color: $orange;
+    color: #fff;
+}
+
+.bg-peterRiver {
+    background-color: $peterRiver;
+    color: #fff;
+}
+
+.bg-sun {
+    background-color: $sun;
+    color: #fff;
+}
+
+.bg-punkin {
+    background-color: $punkin;
+    color: #fff;
+}
+
+.bg-dark-green {
+    background-color: #27ae60;
+    color: #ecf0f1;
+}
+
+.bg-turtle {
+    background-color: #1abc9c;
+    color: #ecf0f1;
+}
+
+.bg-red {
+    background-color: #e74c3c;
+    color: #ecf0f1;
+}
+
+.bg-dark-grey {
+    background-color: #242831;
+    color: #fff;
+}
+
+.bg-dark-grey h1, .bg-dark-grey h2, .bg-dark-grey h3 {
+    color: #fff;
+}
+
+.bg-grey {
+    background-color: #FAFAFA;
+    color: #242831;
+}
+
+.bg-ltGrey {
+  background-color: #f8f8f8;
+}
+
+.bg-blue {
+  background-color: #0097d6;
+}
+
+.bg-white {
+    background-color: #fff !important;
+    color: #242831;
+}
+
+.text-color-green {
+    color: #2ecc71 !important;
+}
+
+.text-color-red {
+    color: #e74c3c !important;
+}
+
+.text-color-grey {
+    color: lighten(#242831, 20%);
+}
+
+.border-bottom-black {
+    border-bottom: 1px solid lighten(#242831, 65%);
+}
+
+.border-think-pink {
+  border-top: 2px solid #c70c47 !important;
+}
+
+.border-right-black {
+    border-right: 1px solid lighten(#242831, 50%);
+}

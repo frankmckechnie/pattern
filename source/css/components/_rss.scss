@@ -1,0 +1,42 @@
+/*   ------ RSS feeds  ---------    */
+
+.macroEntry div.margTop15{
+  float:left;
+  border-left: 1px solid #eee;
+  padding: 10px 10px;
+  margin: 2.5px 0px;
+} 
+.macroEntry div.margTop15:hover{
+  background-color: #eee;
+  border-right: 1px solid #0097d6;
+   transition:1s ease all; 
+  -moz-transition:0.5s ease all; 
+  -webkit-transition:0.5s ease all;
+} 
+.macroEntry .storyWrapper .storyBody {
+  margin-top: 4px;
+}
+.macroEntry .storyWrapper .Posts {
+  margin-top: 0;
+}
+.macroEntry .storyWrapper .storyBody table, .macroEntry .storyWrapper .storyBody table td{
+  border: 0px;
+}
+.macroEntry .storyWrapper, 
+.macroEntry .linebreak, 
+.macroEntry .storyWrapper .storyBody table .linkAside, 
+.macroEntry .storyWrapper .storyBody table .linkAside p, 
+.macroEntry .docMeta{
+  margin: 0px;
+}
+.macroEntry .storyWrapper .storyBody table .linkedStory {
+  margin-top: 8px;
+}
+.macroEntry .storyWrapper .storyBody table .dashIcon{
+  margin: 0 10px -5px 0;
+}
+.margTop15 strong a{
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
